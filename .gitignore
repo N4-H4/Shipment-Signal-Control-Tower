@@ -1,0 +1,43 @@
+# Target build artifacts
+target/
+*.jar
+*.zip
+
+# Anypoint Studio & Eclipse IDE files
+.project
+.classpath
+.settings/
+.mule/
+.studio/
+.metadata/
+*.launch
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Local credentials and environment-specific configuration
+.env
+.env.*
+!.env.example
+config/mule-dev.yaml
+**/mule-dev.yaml
+**/mule-secure.yaml
+**/mule-secure.properties
+
+# SSL certificates and truststores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Local IDE/runtime files
+.settings/postman/local-environment.postman_environment.json
+postman/local-environment.postman_environment.json
+src/main/mule/global-config.xml
